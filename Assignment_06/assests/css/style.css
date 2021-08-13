@@ -1,0 +1,130 @@
+.bgImage1 {
+  background: url(../images/bgimage-1a.jpeg);
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgImage2 {
+  background: url(../images/bgimage-2.jpg);
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bgImage3 {
+  background: url(../images/bgimage3.jpg);
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-img-top {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.cardShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+}
+
+.Shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar-nav > li {
+  padding-left: 15px;
+}
+
+.navbar-nav.navbar-center {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.navbar .nav-item.active .nav-link,
+.navbar .nav-item:hover .nav-link {
+  color: #a9a9a9;
+}
+
+.profilePic {
+  background-image: url(../images/profile.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 270px;
+  width: 275px;
+  background-size: 100%;
+  border-radius: 200px;
+  box-shadow: 0 0 0 10px #dcdcdc;
+  transition-duration: 0.2s;
+}
+
+.profilePic:hover .middle {
+  opacity: 1;
+}
+
+.profileTxt {
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  padding: 16px 30px;
+  border-radius: 20px;
+}
+
+.middle {
+  transition: 0.5s ease-in-out;
+  opacity: 0;
+  position: relative;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  width: 200px;
+}
+
+.bgcolor-1 {
+  background-color: #b8c6db;
+  background-image: linear-gradient(315deg, #b8c6db 0%, #f5f7fa 74%);
+}
+
+.bgcolor-2 {
+  color: #fff;
+  background: -webkit-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%),
+    -webkit-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+  background: -o-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%),
+    -o-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+  background: -moz-linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%),
+    -moz-linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+  background: linear-gradient(110deg, #000 33%, rgba(0, 0, 0, 0) 33%),
+    linear-gradient(110deg, #dd0000 66%, #ffc608 66%);
+}
+
+.education {
+  font-size: 30px;
+  font-weight: normal;
+}
+
+.headers {
+  color: #606060;
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.portfolioHead {
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.decorationoff{
+    text-decoration: none;
+}
+
+.IconHover:hover {
+  color: #787878;
+  transition: 0.2s ease-in-out;
+  border-radius: 20px;
+}

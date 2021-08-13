@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <head>
+    <title>My portfolio</title>
+
+    <!-- CSS -->
+    <link
+     rel="stylesheet" href="../Assignment_06/assests/css/bootstrap.min.css">
+    />
+
+    <!-- Font Awesome icons (free version)-->
+    <script
+      src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Custom CSS-->
+    <link href="../Assignment_06/assests/css/style.css" rel="stylesheet" />
+
+    <!-- JavaScript -->
+    <script
+      src="../Assignment_06/assests/js/bootstrap.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="../Assignment_06/assests/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <section id="home">
+      <nav
+        class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark Shadow"
+        id="navbarSpy"
+      >
+        <div class="container-fluid">
+          <!--a class="navbar-brand" href="#"> Durvesh Jagtap </a-->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav mx-auto" style="--bs-scroll-height: 100px">
+              <li class="nav-item">
+                <a class="nav-link active" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#experience">Experience</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#contact"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <!--Carousel-->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide Shadow"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <div class="bgImage2 d-block w-100"></div>
+        </div>
+        <div class="carousel-item" data-bs-interval="1500">
+          <div class="bgImage1 d-block w-100"></div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="bgImage3 d-block w-100"></div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleInterval"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <br />
+
+    <!--About Section-->
+    <section id="about">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="profilePic mt-5">
+            <div class="middle">
+              <div class="profileTxt">Durvesh Jagtap</div>
+            </div>
+          </div>
+          <div class="col-lg-10">
+            <h2 class="mt-5">About</h2>
+            <p class="lead mb-5">
+              Hey guys!!<br />
+              Myself Jagtap Durvesh, I'm a Web Developer, an eager learner who
+              is ready to face all the hurdles to give the best desirable
+              outcome to the end users. I started learning Web Dev in 2020 and
+              I'm looking forward to explore my limits in this field.
+            </p>
+            <a class="btn btn-dark btn-xl" href="#education"
+              >Learn more About me</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+
+    <!--Education section-->
+    <section class="text-dark bgcolor-1 Shadow" id="education">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-10">
+            <h3 class="mt-5 headers">EDUCATION</h3>
+            <p class="lead mb-5 mt-5">
+              <span> <i class="fas fa-school"></i>&nbsp Schooling </span>
+              <br />
+              <span class="mx-auto education">
+                SACRED HEART CONVENT HIGH SCHOOL
+              </span>
+              <br />
+              Nashik, Maharashtra
+              <br />
+              <span style="font-size: 15px"> June 2004 - March 2019 </span>
+              <br /><br /><br />
+              <span> <i class="fas fa-university"></i>&nbsp Diploma </span>
+              <br />
+              <span class="mx-auto education"> K. K. Wagh Polytechnic </span>
+              <br />
+              Nashik, Maharashtra
+              <br />
+              <span style="font-size: 15px"> August 2019 - May 2022 </span>
+              <br /><br />
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+
+    <!-- Skills and Experience Section -->
+    <section
+      class="text-dark text-center mt-5 bgcolor-1 Shadow"
+      id="experience"
+    >
+      <div class="container px-4 px-lg-5">
+        <br /><br />
+        <div>
+          <h4 class="mb-5 headers">SKILLS</h4>
+        </div>
+        <br />
+        <div class="row gx-4 gx-lg-5">
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="mx-auto mb-30 IconHover"
+              ><i class="fab fa-html5 fa-5x"></i
+            ></span>
+            <h4><strong>HTML</strong></h4>
+            <p class="mb-30">100%</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-lg-0">
+            <span class="mx-auto mb-3 IconHover"
+              ><i class="fab fa-css3-alt fa-5x"></i
+            ></span>
+            <h4><strong>CSS</strong></h4>
+            <p class="mb-0">80%</p>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-0">
+            <span class="mx-auto mb-3 IconHover"
+              ><i class="fab fa-js-square fa-5x"></i
+            ></span>
+            <h4><strong>JavaScript</strong></h4>
+            <p class="mb-0">In progress...</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <span class="mx-auto mb-3 IconHover"
+              ><i class="fas fa-brush fa-5x"></i
+            ></span>
+            <h4><strong>Web Design</strong></h4>
+            <p class="mb-0">50%</p>
+          </div>
+        </div>
+        <br /><br />
+        <hr />
+        <section>
+          <p class="mt-5 headers">EXPERIENCE</p>
+          <p class="lead mb-5 mt-5">
+            I had completed my internship for
+            <strong> WEB DEVELOPMENT</strong> at
+            <strong> S.M.A.R.T HUB</strong> , Nashik, Maharshtra.<br />
+            The duration of internship was of 6 weeks. I had learnt various
+            technologies like HTML, CSS, bootstrap, JavaScript, nodeJS, etc
+            which was taught by our mentor, Mst.
+            <a
+              href="https://www.linkedin.com/in/thedevankit/"
+              target="blank"
+              class="decorationoff"
+            >
+              Ankit Singh
+            </a>
+            a.k.a TheDevAnkit.
+          </p>
+        </section>
+        <br /><br />
+      </div>
+    </section>
+    <br /><br /><br /><br />
+
+    <!--Interest Section-->
+    <section class="mt-5 text-dark bgcolor-1 Shadow" id="education">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-10">
+            <h5 class="mt-5 headers">INTERESTS</h5>
+            <p class="lead mb-5 mt-5">
+              Apart from programming, I like to spend my time with loved ones. I
+              do enjoy working-out and staying fit.<br />
+              Also, I do like to watch thriller movies & series during week-off.
+              Moreover In my loose time, I produce music on
+              <a
+                href="https://www.image-line.com/"
+                target="blank"
+                class="decorationoff"
+              >
+                FL studio
+              </a>
+              and also make paintings.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+
+    <!-- Portfolio-->
+    <section class="mt-5 text-dark bgcolor-2 Shadow" id="portfolio">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-10">
+            <h6 class="mt-5 portfolioHead">PORTFOLIO</h6>
+            <!--Card-1-->
+            <div class="card mb-3 mt-5 cardShadow" style="border-radius: 20px">
+              <img
+                src="../Assignment_06/assests/images/portimg-1.PNG"
+                class="card-img-top"
+                alt="portfolio Image-1"
+              />
+              <div class="card-body">
+                <h5 class="card-title mt-3 lead">My First Webpage</h5>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 1 day ago</small>
+                </p>
+              </div>
+            </div>
+            <br />
+            <!--Card-2-->
+            <div class="card mt-5 cardShadow" style="border-radius: 20px">
+              <!--Carousel-2-->
+              <div
+                id="carouselExampleFade"
+                class="carousel slide carousel-fade"
+                data-bs-ride="carousel"
+              >
+                <div class="carousel-inner" style="border-radius: 18px">
+                  <div class="carousel-item active" data-bs-interval="2500">
+                    <img
+                      src="../Assignment_06/assests/images/portimg-3.PNG"
+                      class="d-block w-100"
+                      alt="portfolio Image-3"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2500">
+                    <img
+                      src="../Assignment_06/assests/images/portimg-4.PNG"
+                      class="d-block w-100"
+                      alt="portfolio Image-4"
+                    />
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2500">
+                    <img
+                      src="../Assignment_06/assests/images/portimg-5.PNG"
+                      class="d-block w-100"
+                      alt="portfolio Image-5"
+                    />
+                  </div>
+                </div>
+                <button
+                  class="carousel-control-prev"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="carousel-control-next"
+                  type="button"
+                  data-bs-target="#carouselExampleFade"
+                  data-bs-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <br />
+              <div class="card-body">
+                <h5 class="card-title lead">
+                  Portfolio Website using Custom CSS
+                </h5>
+                <p class="card-text">
+                  <small class="text-muted">Last updated 1 day ago</small>
+                </p>
+              </div>
+            </div>
+            <br /><br /><br /><br />
+          </div>
+        </div>
+      </div>
+    </section>
+    <br /><br /><br /><br />
+
+    <!---->
+
+    <!--Contact Section-->
+    <section class="mt-5 bg-light text-dark Shadow" id="education">
+      <div class="container px-4 px-lg-5 text-center">
+        <div class="row gx-4 gx-lg-5 justify-content-center">
+          <div class="col-lg-10">
+            <h5 class="mt-5 headers">CONTACT ME</h5>
+            <p class="lead mb-5 mt-5"></p>
+            <!--Form-->
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label"
+                >Name</label
+              >
+              <input
+                type="email"
+                class="form-control w-50 mx-auto"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+                style="border-radius: 10px"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Message / Suggestions</label
+              >
+              <textarea
+                class="form-control w-75 mx-auto"
+                id="exampleFormControlTextarea1"
+                placeholder="Hey! Good work mate."
+                style="border-radius: 20px"
+                rows="3"
+              ></textarea>
+
+              <a class="btn btn-dark btn-xl mb-2 mt-3" href="#!"
+                ><i class="fa fa-paper-plane"></i> &nbsp Send Message</a
+              >
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+
+      <!-- Footer-->
+      <footer class="footer mt-4" id="contact">
+        <div class="container px-4 px-lg-5 text-center">
+          <div class="row gx-4 gx-lg-5 justify-content-center">
+            <div class="col-lg-10">
+              <ul class="list-inline mb-5">
+                <li class="list-inline-item">
+                  <a
+                    class="mr-3"
+                    href="https://www.linkedin.com/in/durvesh-jagtap-4341a8219/"
+                    target="blank"
+                    ><i class="fab fa-linkedin-in fa-2x"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="mr-3"
+                    href="https://github.com/Durvesh725"
+                    target="blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                </li>
+                <li class="list-inline-item">
+                  <a
+                    class="mr-3"
+                    href="https://www.instagram.com/durveshjazz/"
+                    target="blank"
+                    ><i class="fab fa-instagram fa-2x"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
